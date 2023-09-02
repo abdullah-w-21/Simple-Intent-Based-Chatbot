@@ -1,0 +1,169 @@
+{"intents":  [
+  {"tag": "greetings",
+  "patterns":  ["hello", "hey", "hi", "greetings", "what's up?", "how is it going?"],
+  "responses": ["Hello!", "Hi there, How can I help you today?", "Hey!", "What can I do for you?", "How may I assist you"]},
+
+  {"tag": "goodbye",
+  "patterns":  ["Bye", "thank you", "shutdown", "power off", "I am leaving", "turn off"],
+  "responses": ["Happy to solve your problem", "Bye and ping me up if you have any queries!", "Thank you for choosing me as your assistance!", "Glad to help!", "Shutting down...."]},
+
+  {"tag": "about",
+  "patterns": ["What is your name?", "What could I call you?", "What can I call you?", "What do your friends call you?", "Who are you?", "Tell me your name?", "Tell me about yourself", "What are you?"],
+  "responses": ["Hi there, I am Sabe, an interactive chatbot designed by my maker to provide feedback for question that are within my knowledge. At the moment I am running as a beta model chatbot with a small data set. I am here to assist you in getting through any obstacles you may encounter while using this application. With my advanced programming and natural language processing capabilities, I can understand your queries and provide quick and accurate solutions. Whether you're a new user or an experienced one, I am always ready to help and answer any questions you may have. So, don't hesitate to reach out whenever you need assistance."]},
+
+  {"tag": "shutup",
+  "patterns":  ["Be quiet", "Shut up", "Stop talking", "Enough talking", "Please be quiet", "Quiet", "Shhh", "Chup kar", "bilkul chup", "bakwas band"],
+  "responses": ["I am sorry to disturb you", "Fine, sorry to disturb you", "OK, sorry to disturb you"]},
+
+  {"tag": "visual",
+  "patterns":  ["Can you see me?", "Do you see me?", "Can you see anyone in the camera?", "Do you see anyone in the camera?", "Identify me"],
+  "responses": ["Let me see", "Please look at the camera and wink"]},
+
+  {
+      "tag": "OOP",
+      "patterns": [
+        "What is object-oriented programming?",
+        "Explain object oriented programming.",
+        "What are the principles of object-oriented programming?"
+      ],
+      "responses": [
+        "Object-oriented programming (OOP) is a programming paradigm that is based on the concept of objects, which can contain data and code to manipulate that data. The principles of OOP include encapsulation, inheritance, and polymorphism."
+      ]
+    },
+
+     {
+      "tag": "VariableinProgramming",
+      "patterns": [
+        "What is a variable in programming?",
+        "Define variable in programming.",
+        "What is the purpose of a variable in programming?"
+      ],
+      "responses": [
+        "In programming, a variable is a container for a value or data. It allows the programmer to store and manipulate data throughout the program. Variables are used for a variety of purposes, such as storing user input, performing calculations, and storing data for later use."
+      ]
+    },
+
+   {
+      "tag": "database",
+      "patterns": [
+        "What is a database?",
+        "Explain database technology.",
+        "What are the benefits of using a database?",
+        "What is a database management system?",
+"Define database management system.",
+"What are the different types of database management systems?"
+      ],
+      "responses": [
+        "A database is an organized collection of data that is stored and accessed electronically. Database technology is used to manage and manipulate large amounts of data efficiently. The benefits of using a database include improved data security, increased data accuracy, and the ability to easily access and analyze large amounts of data. A database management system (DBMS) is a software system that is used to manage and manipulate data in a database. There are several different types of DBMS, including relational, object-oriented, and NoSQL DBMS."
+      ]
+    },
+
+  {
+      "tag": "programming",
+      "patterns": [
+        "What is a programming language?",
+        "Define programming language.",
+        "What are the different types of programming languages?"
+      ],
+      "responses": [
+        "A programming language is a formal language that is used to communicate instructions to a computer. There are several different types of programming languages, including high-level languages like Python and Java, low-level languages like Assembly and C, and scripting languages like JavaScript and PHP."
+      ]
+    },
+
+  {
+      "tag": "compiler",
+      "patterns": [
+        "What is a compiler?",
+        "Explain compiler technology.",
+        "What is the purpose of a compiler?"
+      ],
+      "responses": [
+        "A compiler is a program that translates source code written in a programming language into machine code that can be executed by a computer. Compiler technology is used to optimize code for better performance and to catch errors before the program is run. The purpose of a compiler is to make it easier for programmers to write code in high-level languages, which are easier to read and write than machine code."
+      ]
+    },
+
+  {
+      "tag": "network",
+      "patterns": [
+        "What is a computer network?",
+        "Define computer networking.",
+        "What are the benefits of using a computer network?"
+      ],
+      "responses": [
+        "A computer network is a collection of computers and other devices that are connected together to share resources and communicate with one another. Computer networking technology is used to enable communication and resource sharing between devices. The benefits of using a computer network include increased efficiency, improved communication, and easier access to shared resources."
+      ]
+    },
+
+  {
+      "tag": "dsa",
+      "patterns": [
+        "What is a data structure?",
+        "Define data structure in programming.",
+        "What are the different types of data structures?"
+      ],
+      "responses": [
+        "A data structure is a way of organizing and storing data in a computer program. Data structures are used to make it easier to access and manipulate data inefficient ways. There are several different types of data structures, including arrays, linked lists, stacks, queues, and trees."
+]
+},
+
+  {
+"tag": "sdlc",
+"patterns": [
+"What is a software development life cycle?",
+"Explain software development life cycle.",
+"What are the phases of the software development life cycle?"
+],
+"responses": [
+"The software development life cycle (SDLC) is a process used by software developers to plan, design, develop, test, and maintain software. The SDLC is made up of several phases, including requirements gathering, design, development, testing, deployment, and maintenance."
+]
+},
+
+{
+"tag": "cloudcompute",
+"patterns": [
+"What is cloud computing?",
+"Explain cloud computing technology.",
+"What are the benefits of using cloud computing?"
+],
+"responses": [
+"Cloud computing is a technology that allows users to access and use computing resources over the internet. Cloud computing technology is used to provide on-demand access to computing resources, such as servers, storage, and applications. The benefits of using cloud computing include scalability, flexibility, and cost savings."
+]
+},
+
+  {
+"tag": "webserver",
+"patterns": [
+"What is a web server?",
+"Define web server technology.",
+"What is the purpose of a web server?"
+],
+"responses": [
+"A web server is a software system that is used to deliver web pages and other content over the internet. Web server technology is used to host websites, deliver content to users, and provide access to web-based applications. The purpose of a web server is to enable users to access web pages and content from anywhere in the world using a web browser."
+]
+},
+
+  {
+"tag": "os",
+"patterns": [
+"What is an operating system?",
+"Define operating system.",
+"What are the different types of operating systems?"
+],
+"responses": [
+"An operating system is a software system that is used to manage and control computer hardware and software resources. There are several different types of operating systems, including Windows, macOS, Linux, and Unix."
+]
+},
+
+  {
+"tag": "ai",
+"patterns": [
+"What is artificial intelligence?",
+"Define artificial intelligence technology.",
+"What are the different types of artificial intelligence?"
+],
+"responses": [
+"Artificial intelligence (AI) is a field of computer science that is focused on creating machines that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making. There are several different types of AI, including machine learning, natural language processing, and robotics."
+]
+}
+
+]}
